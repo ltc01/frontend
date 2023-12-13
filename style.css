@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#363636;
+    
+}
+.flex{
+    display: flex;
+}
+header nav{
+    justify-content: space-between;
+    padding: 1.4em 7em;
+    
+}
+h1 span, .navbar li:hover{
+    color:#ff4e37;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: xx-large;
+    width: 50%;
+    letter-spacing: 0.05em;
+}
+nav li{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight:bolder;
+    cursor: pointer;  
+}
+.navbar :first-child{
+    color: #ff4e37;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%; 
+}
+
+.carousel{
+    margin: auto;
+    width:100%;
+    overflow: hidden;
+    object-fit:contain;
+    text-align: center;
+
+}
+.slides{
+    display: flex;
+    margin-bottom: 1em;
+}
+.services, .features{
+    text-align: center;
+    margin: 2em 0 0 0;
+    width: 100%;
+}
+.services h3{
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    padding: 1em 0 ;
+}
+.services h2, .features h2{
+    font-size: 31px;
+    letter-spacing: 0.01em;
+    
+}
+.cards{
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 7em 0;
+}
+.card{ 
+   padding: 1em; 
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+.card p{
+    font-size: 1.4em;
+    margin: 2em 0;
+}
+.card i, .card2 i{
+    background-color: #f44e37;
+    color: white;
+    border-radius:50%;
+    font-size: 2.9em;
+    padding: 1.3rem;
+   
+}
+
+.content{
+    width:40%;
+    line-height: 25px;
+    margin: 2em auto 5em auto;
+
+}
+.img{
+    justify-content: space-around; 
+    
+}
+.card2{
+    margin: 6em auto;
+    justify-content: space-around;
+}
+.card2 div{
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+.card-content{
+    text-align: start;
+    padding: 1em;
+}
+.title{
+    font-size: 20px;
+    padding: 1em 0;
+}
+.card-content p{
+    text-align: start;
+}
+.bar{
+    text-align: center;
+    color: white;
+    background-color: #ff4e37;
+    padding: 3em;
+}
+.bar h2{
+    font-size: 2.2em;
+    letter-spacing: 0.02em;
+    margin: 1em;
+ }
+.bar button{
+    margin: 3em 1em 1em 1em;
+    padding: 1em;
+    background-color:white;
+    border-radius: 50px;
+    color:#f44e37;
+    border: 1px solid white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bar button:hover{
+    color: white;
+    background-color: #f44e37;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+.review img {
+    border-radius: 50%;
+    border: 1px solid #363636;
+}
+.review p{
+    text-align: center;
+    letter-spacing: 0.04em;
+    width: 70%;
+    margin:0 auto;
+}
+
+footer{
+    background-color: #2d2d2d;
+    color: #acacac;
+    
+}
+.lastContent{
+    justify-content: space-between;
+    padding: 3em;
+}
+.heading{
+    font-size: 1.3em;
+    color: white;
+    margin: 2em 0;
+}
+.flexCol p{
+    text-align: start;
+    letter-spacing: 0.03em;
+    margin: 1em 0;
+    line-height: 1.8em;
+    font-size:14px;
+   
+}
+.flexCol{
+    width: 30%;
+    padding: 1em;
+}
+.line{
+    border-bottom: 1px solid #FFF;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    padding: 1.8em 5em;
+    font-size: 14px 
+}
+.link {
+    gap:1em;
+}
+.list{
+    gap:4em;
+}
+.right{
+    width: 100%;
+}
+.icon{
+    color: white;
+    font-size: large;
+}
+.link i{
+    background-color: black;
+    color:white;
+    padding: 0.6em;
+    border-radius: 50%;
+    font-size: small;
+}
+.link i:hover, .list li:hover{
+    cursor: pointer;
+}
+.ham{
+    display: none;
+}
+@media (max-width:425px){
+    .navbar{
+        display: none;
+    }
+    .cards, .img, .card2, .lastContent, .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .ham{
+        display:inline;
+    }
+    header nav{
+        padding: 1em 2em;
+    }
+}
